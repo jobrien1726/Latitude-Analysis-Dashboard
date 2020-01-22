@@ -1,0 +1,83 @@
+body {
+  background-color: lightgray;
+}
+  
+#logo {
+  height: 60px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #4aaaa5;
+  border-radius: 10%;
+}
+
+.row {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  text-align: left;
+  color:#4aaaa5;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+hr {
+  align-items: left;
+}
+  
+#max_temp {
+  background-color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top:15px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#max_temp_header {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: xx-large;
+}
+
+#max_temp_fig {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: auto;
+}
+
+p {
+  padding-top: 20px;
+}
+  
+#visuals-box {
+  background-color: white;
+  margin-left: 15px;
+  margin-top:15px;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+}
+
+#sm_max_temp_fig {
+  border-style: solid;
+  border-color: #4aaaa5;
+}
+  
+.figs {
+  float: center;
+}

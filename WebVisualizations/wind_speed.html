@@ -9,7 +9,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-      <link rel="stylesheet" href="assets/index_style.css">
+      <link rel="stylesheet" href="assets/wind_speed_style.css">
     </head>
 <body>
 
@@ -43,25 +43,20 @@
       
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-8" id="summary">
-                <h1 id="summary_header">Summary: Latitude vs. X</h1>
+            <div class="col-sm-12 col-md-8" id="wind_speed">
+                <h1 id="wind_speed_header">Wind Speed</h1>
                 <hr>
-                <img class="summary-img" src="visualizations/Fig1.png" width="200" height="200">
+                <img id="wind_speed_fig" src="visualizations/Fig4.png" width="600" height="400">
                 <p>                    
-                    The goal of this project was to analyze how weather patterns change as we move closer to the equator. 
-                    In order to complete this anaylsis, we extracted data from the OpenWeatherMap API and created a dataset where we observed different aspects 
-                    of the weather from a random sample of over 500 different cities.
-                </p>
-                <p>
-                    After putting together a dataset, we used MatPlotLib to plot the various weather factors against latitude.
-                    These factors included: Maximum Temperature, Humidity, Cloudiness and Wind Speed. This site provides access to the data 
-                    collected, the subsequent visualizations created, as well as a summary of any patterns or correlations observed for each.
-
+                    We can see from the above plot that Wind Speed tends to significantly less at the equator (0 Deg. Latitude) and increases as 
+                    we move further from the equator. The trade winds coming from the south and the north meet near the equator. 
+                    These converging trade winds produce general upward winds as they are heated, so there are no steady surface winds. 
+                    This area of calm is called the doldrums.
                 </p>
             </div>
             <div class="col-sm-12 col-md-3" id="visuals-box">
                 <section class="visuals-section">
-                    <h1>Visualizations</h1>
+                    <h1 class="Visualizations">Visualizations</h1>
                     <hr>
                     <img id="sm_max_temp_fig" class="figs" src="visualizations/Fig1.png" width="120" height="120">
                     <img id="sm_humidity_fig" class="figs" src="visualizations/Fig2.png" width="120" height="120">
