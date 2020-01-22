@@ -9,7 +9,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-      <link rel="stylesheet" href="assets/max_temp_style.css">
+      <link rel="stylesheet" href="assets/comparison_style.css">
     </head>
 <body>
 
@@ -41,27 +41,38 @@
         </div>
       </nav>
       
-    <div class="container">
+    <div class="container" id="comparison_all">
         <div class="row">
-            <div class="col-sm-12 col-md-8" id="max_temp">
-                <h1 id="max_temp_header">Max Temperature</h1>
+            <div class="col-md-12">
+                <h1 id="comparison_header">Comparison: Latitude vs. X</h1>
                 <hr>
-                <img id="max_temp_fig" src="visualizations/Fig1.png" width="600" height="400">
                 <p>                    
-                    As we can see from the above image, the temperature increases consistently as we get closer to the equator (0 Deg. Latitude).
-                    These observations align with what we would've expected. We can also see from the observed temperatures that the 
-                    southern hemisphere is significantly warmer this time of year than the northern hemisphere.
+                    Click on any plot to get an in-depth analysis.
                 </p>
             </div>
-            <div class="col-sm-12 col-md-3" id="visuals-box">
-                <section class="visuals-section">
-                    <h1 class="Visualizations">Visualizations</h1>
-                    <hr>
-                    <img id="sm_max_temp_fig" class="figs" src="visualizations/Fig1.png" width="120" height="120">
-                    <img id="sm_humidity_fig" class="figs" src="visualizations/Fig2.png" width="120" height="120">
-                    <img id="sm_clouds_fig" class="figs" src="visualizations/Fig3.png" width="120" height="120">
-                    <img id="sm_windspeed_fig" class="figs" src="visualizations/Fig4.png" width="120" height="120">
-                </section>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <a href="max_temp.html">
+                    <img id="max_temp_fig" class="float-left" src="visualizations/Fig1.png" width="475" height="350">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <a href="humidity.html">
+                    <img id="humidity_fig" class="float-right" src="visualizations/Fig2.png" width="475" height="350">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <a href="clouds.html">
+                    <img id="clouds_fig" class="float-left" src="visualizations/Fig3.png" width="475" height="350">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <a href="wind_speed.html">
+                    <img id="wind_speed_fig" class="float-right" src="visualizations/Fig4.png" width="475" height="350">
+                </a>
             </div>
         </div>
     </div>
