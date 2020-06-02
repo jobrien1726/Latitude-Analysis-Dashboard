@@ -8,6 +8,14 @@ Data from a random selection of 500+ cities around the globe, varying in proximi
 
 ![](Images/main_page.png)
 
+## Some Conclusions from this Analysis
+
+1. The cities with the highest maximum temperatures do not seem to fall exactly ON the equator as I would've expected, but rather are located just below and just above the equator. The cities located right at 0 latitude dip a little bit in temperture. 
+
+2. The trend observed here with regard to humidity I also found to be unexpected. I would've guessed that cities along the equator had a higher percentage of humidity, but the scatter plot indicates that cities between 40 and 80 degrees latitude have a much higher percentage of humidity overall. 
+
+3. The scatter plot with regard to Wind Speed indicates that the wind gets stronger as we move further from the equator. This trend does align with what I would've anticipated.
+
 ## Technologies Used
 - Python
 - JavaScript
@@ -16,11 +24,3 @@ Data from a random selection of 500+ cities around the globe, varying in proximi
 - CSS
 - BootStrap
 - jQuery
-
-## Some Conclusions from this Analysis
-
-1. The cities with the highest maximum temperatures do not seem to fall exactly ON the equator as I would've expected, but rather are located just below and just above the equator. The cities located right at 0 latitude dip a little bit in temperture. 
-
-2. The trend observed here with regard to humidity I also found to be unexpected. I would've guessed that cities along the equator had a higher percentage of humidity, but the scatter plot indicates that cities between 40 and 80 degrees latitude have a much higher percentage of humidity overall. 
-
-3. The scatter plot with regard to Wind Speed indicates that the wind gets stronger as we move further from the equator. This trend does align with what I would've anticipated.
