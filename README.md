@@ -8,3 +8,12 @@ Data from a random selection of 500+ cities around the globe, varying in proximi
 
 ![](Images/main_page.png)
 
+## Technologies Used
+- Python
+- JavaScript
+- Pandas
+- HTML
+- CSS
+- BootStrap
+- jQuery
+
